@@ -1,0 +1,33 @@
+body{
+	background-image: url(ffx.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	font-size: 40px;
+}
+
+
+
+
+.header{
+	margin: 15px;
+}
+
+.instructions{
+	margin:15px;
+
+
+}
+
+.aeons{
+	margin:10px;
+}
+
+#audio{
+	visibility: hidden;
+}

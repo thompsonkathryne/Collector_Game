@@ -1,0 +1,58 @@
+<DOCTYPEhtml>
+    <html>
+    <html lang="en">
+
+    <head>
+        <title>Aeon Collector!</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="assets/javascript/game.js"></script>
+
+        <div id="audio">
+        <audio autoplay> 
+            <source src="assets/audio/toZanarkand.mp3" type="audio/mpeg" >
+        </audio>
+        </div>
+
+    </head>
+
+    <body>
+        <div class="container">
+        <div class="header">
+            <h1>FINAL FANTASY AEON COLLECTOR</h1></div>
+        <div class="instructions">
+            <h3>
+        You will be given a random number at the start of the game.
+        <br>
+        There are four Aeons below. By clicking on one you will add a specific amount of points to your total score.
+        <br>
+        You win the game by matching your total score to the random number. You lose if your total score goes above the random number.
+        <br>
+        The value of each Aeon is hidden until you click on it.
+        <br>
+        Each time the game starts, the values of the Aeons will change.
+        </div>
+        <div class="randomNum">Number to Match: <br><span class="numberPicked"></span></div>
+        <div class="score">Your total score: <br><span class="playerScore"></span></div>
+        
+        <div class="aeons">
+
+        <img src="assets/images/shiva.jpg" class="aeon" id="shiva" width="150" height="150" data-num="">
+        <img src="assets/images/ifrit.jpg" class="aeon" id="ifrit" width="150" height="150">
+        <img src="assets/images/bahamut.jpg" class="aeon" id="bahamut" width="150" height="150">
+        <img src="assets/images/anima.jpg" class="aeon" id="anima" width="150" height="150">
+
+
+            
+        </div>
+       
+        <div class="winsLosses">Wins: <span class="wins"></span><br>Losses: <span class="losses"></span></div>
+        </div>
+        
+
+    </body>
+
+    </html>
+
+    </html>
